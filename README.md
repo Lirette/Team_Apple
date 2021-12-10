@@ -3,6 +3,30 @@ Datamining project
 
 ## Logs
 
+### Patch 2.4
+**MODEL**: LR
+**ACCURACY SCORE**:0.4823
+**SUBMISSION SCORE**: 0.3900
+
+**MODEL**: RF
+**ACCURACY SCORE**:0.4688
+**SUBMISSION SCORE**: 0.3600
+
+**MODEL**: LSCV
+**ACCURACY SCORE**:0.4865
+**SUBMISSION SCORE**: 0.4233
+
+**CHANGES**
+Function that counts words NOT in the list, counted the words ACTUALLY in the list. Changed it to be correct
+Optimized some functions to run faster
+Tested with token only, with words only, with everything and added the scores each time
+Added LinearSCV model
+Added submission 
+Code needs heavy cleaning
+
+**Notes**
+I think we suffer overfitting. The most promessing model is LSCV for now. By adding all the regressors and things seen in class we should get at least up to the UNIL_TEST score. 
+
 ### Patch 2
 **MODEL**: LR
 **ACCURACY SCORE**:
