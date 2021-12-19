@@ -9,8 +9,6 @@
 
 The goal of the project is to detect Difficulty Level of French Texts. the different level possible are: A1, A2, B1, B2, C1, C2.
 
-## Strucuture of the Github 
-
 ## Table of Contents 
 0. Team Presentation
 1. Introduction 
