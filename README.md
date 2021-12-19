@@ -1,5 +1,4 @@
-# DMML2021 Apple
-Datamining project
+# DMML2021 Apple(Datamining project)
 
 ## Team members
 Marine Renaudineau <br />
@@ -8,6 +7,16 @@ Lirette Teiffouet Noumbo Epse Keumedjio
 
 ## project description 
 the goal of the project is to detect Difficulty Level of French Texts. the different level possible are: A1, A2, B1, B2, C1, C2
+
+## table comparing differents methods
+| Classifier      | Accuracy | Precision     | Recall | F1_Score |
+| :---        |    :----:   |          ---: |
+| Logistic Regression      | Title       | Here's this   |
+| KNN   | Text        | And more      |
+| Decision Tree      | Title       | Here's this   |
+| Random Forest   | Text        | And more      |
+| RidgeClassifier      | Title       | Here's this   |
+| autres...   | Text        | And more      |
 
 ## Logs
 
