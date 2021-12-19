@@ -115,6 +115,70 @@ The final submission accurcy score is 0.45166. We are therefor successful in ach
 
 
 ## Logs
+### Patch 5
+**MODEL**: LR
+**ACCURACY SCORE**:0.5135
+**SUBMISSION SCORE**: 0.41833
+
+**MODEL**: RF
+**ACCURACY SCORE**:0.4437
+**SUBMISSION SCORE**: 0.40666
+
+**MODEL**: LSCV
+**ACCURACY SCORE**:0.5333
+**SUBMISSION SCORE**: 0.45166
+
+**CHANGES**
+We decided to improve on what we already had. We mainly chaned the tfidf_vector() function by following advice found on the course (the notebooks) and some blogs that we found. For the n-gram values, trial and error was our method of choice. The other parameters were selected by various factors. For example "norm", we already found in an earlier patch that l2 was the best. This advice was found on the spacy documentation. 
+This was the best submission we had.
+
+**Notes**
+Besides Logistic Regression, we see that the loss in accuracy is lower for the models. This is a good sign, as it shows that our model generalizes much better than before. This is an encouraging that, specially since we were able to reach the desired goal of beating Unil_test.
+This is the final patch before the final notebook
+
+### Patch 4
+**MODEL**: LR
+**ACCURACY SCORE**:0.5385
+**SUBMISSION SCORE**: 0.36000
+
+**MODEL**: RF
+**ACCURACY SCORE**:0.6312
+**SUBMISSION SCORE**: 0.29750
+
+**MODEL**: LSCV
+**ACCURACY SCORE**:0.6510
+**SUBMISSION SCORE**: 0.36833
+
+**CHANGES**
+Doc2Vec was implemented. We weren't sure on the exact processure to do so. Specially, on how to implemented with our current regressors. 
+The way it was done is that the array that was output by Doc2Vec for each row was made into columns. The selection of regressors in Doc2Vec was of 35. This was decided by trial and error. 
+
+**Notes**
+While we have huge improvements in our notebook, we are very disapointed by the submission results. Given the workload the team has, specially that some are already in exam period, we decided not to fix this. It would take too much time and the team does not have. 
+Very disappointed indeed :(
+
+### Patch 3
+**MODEL**: LR
+**ACCURACY SCORE**:0.4833
+**SUBMISSION SCORE**: 0.38416
+
+**MODEL**: RF
+**ACCURACY SCORE**:0.4625
+**SUBMISSION SCORE**: 0.35583
+
+**MODEL**: LSCV
+**ACCURACY SCORE**:0.4594
+**SUBMISSION SCORE**: 0.42666
+
+**CHANGES**
+Word embebbing was implemented, using the function get_vector().
+For demostration purposes, the choice was made to keep each regressor in one function. This is inefficient, but it does allow to show what we did more clearly, and also it allows the quick-and-easy modifications of the functions. Now a new function implemented all those regressors. This allows us to not rewrite the process when implementing it to the submission data. The function is def get_features().
+
+**Notes**
+We clearly see the improvement that LSCV makes compares to other methods. The score is really close to the submission score, maybe we are getting rid of over-fitting thanks to word embeddings. 
+
+
+
 
 ### Patch 2.4
 **MODEL**: LR
