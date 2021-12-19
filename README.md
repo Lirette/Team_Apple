@@ -52,6 +52,27 @@ Marco Antonio is in the [Economics](https://www.unil.ch/hec/en/home/menuinst/etu
 
 Lirette is in the [Information Systems](https://www.unil.ch/formations/en/home/menuinst/masters/systemes-dinformation.html) Master program . She decided to to take the Data Mining and Machine Learning class because she has strong interests in the field and she wants to work in the data mining field. This class and project is the perfect opportunity for her to learn and master the skills the needs. 
 
+---
+# 1. Introduction
+
+Natural Language Processing (NLP) and Text Analytics has become a big research field in the past years. This is of course a natural devleopment of our society, which has created tools for communication that through the internet can reach million if not billions. All the data generated needs treatment. It also needs analysis, as some of it can be dangerous. 
+
+One area of text analytics and NLP that has being gaining traction in the machine learning research community is the topic of claffiying a text automatically according to its complexicity. There are many ways to achieve this goal. 
+In this project, we implement various models to try and classify french texts according to it difficulty following the Common European Framework of Reference for Languages (CEFR) difficulties. 
+
+The github repo is structured as follows:
+
+
+```Code```
+The folder that contains various notebooks where we explore different technics and strategies to achieve the best classification. The final notebook is named ```final_notebook_dmml2021_apple```
+
+```Documents```
+This folder most important contribution is the Literature Review which explores briefly what has been done in the past. Then, it includes a file which documents how we have implemented what we have learned from the literature. Finally, this folder also contains some files needed such images.
+
+```Data```
+This folder contains the orginal training dataset as well as the unlabled dataset. We have also included a dictionary of french words that was made by a researcher. This has helped implement a regressor and enrich our models. 
+
+---
 
 ## table comparing differents methods used
 | Classifier      | Accuracy | Precision     | Recall | F1_Score |
