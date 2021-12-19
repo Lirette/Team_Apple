@@ -95,7 +95,7 @@ The output of this stage is the Result table and the Logs. Both of which can be 
 
 ---
 
-## table comparing differents methods used
+# 3. Results 
 | Classifier      | Accuracy | Precision     | Recall | F1_Score |
 | :---        |    :----:   |    ---: |    :----:   |    ---: |
 | Logistic Regression      | 0.4604      | 0.4577   |  0.4595  | 0.4554      | 
@@ -103,7 +103,12 @@ The output of this stage is the Result table and the Logs. Both of which can be 
 | Decision Tree   |    0.3115      | 0.3100      |   0.3107    |  0.3094  |
 | Random Forest   |   0.4021  | 0.4061      |   0.400  |   0.3905  |
 | RidgeClassifier      | 0.3156      | 0.3823   |   0.3137  |  0.2913   |
-| autres...   |        |      |       |       |
+| LinearSVC      | 0.5333      | 0.530738   |   0.532414  |  0.530353  ||
+
+We have many other results that have better accurary in our notebook. Specially, we have reached an accuracy of 0.6594 with LinearSVC and Doc2Vec. However, this has not materialized in a better submission result. As such, it is not reported here.
+
+The final submission accurcy score is 0.45166. We are therefor successful in achieving the benchmark of 0.44583
+
 
 ## Logs
 
