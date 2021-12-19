@@ -73,6 +73,26 @@ This folder most important contribution is the Literature Review which explores 
 This folder contains the orginal training dataset as well as the unlabled dataset. We have also included a dictionary of french words that was made by a researcher. This has helped implement a regressor and enrich our models. 
 
 ---
+# 2. Methodology
+This project followed three distinct steps.
+
+### 2.1 - Review
+In this first step, we look to the acamedic sources that have tackled this problem in the past. The paper selection was based on two criteras; relevant models and date of publication. The first criteria important because we want to avoid complex models that are out of our reach. Regarding the year of publication, this important as we need to see the lastest development and have a benchmark of what is possible.
+This step also included the review of the course. First, through the videos of the professors that were posted during the year. Secondly, and just as importantly, the review of the labs and its notebooks. This gave us a comfortable foundation where we would understand what we were doing. This foundation is essential for troubleshooting.
+
+The output of this step is the literature review and a first notebook where we implemented the models seen in class (Logistic Regression, KNN, Decision Tree and so on) without any data processing. 
+
+### 2.2 - Model building
+At this stage, we starting implementing more complex methods to our project. We started by implementing "TF-IDF" and trying in the already existing models. We also decided to try a new model, LinearSCV. This was guided by the recommendation of the people behind the scikit-learn library.
+Using the literature review as a guide, we started to implement different regressors. We decided to follow the "A function does only one thing" principle. As such, we have one function per regressor. This is however very inefficient and makes our code run slowly. However, we decided to keep this structure as way to showcase what was done. 
+After this, we started with the submission in the Kaggle page.
+Judgin by the difference in our notebook accuracy and the kaggle submission, we were suffering by overfitting.
+The output of this stage was our submission and various notebooks. 
+
+### 2.3 - Fine tuning
+This stage is the probably the most fun but also the most tideous. It was here that we started to fine tune our models, trying different parameters and comparing the results. It is a tideous stage as everything needs to be documented. To make sure we are progressing (and not going backwards) our choices need to be made by concrete information rather than by guess work. We looked around in blogs, python library forums and other sources. We tried various methods to increase our accuracy. 
+The output of this stage is the Result table and the Logs. Both of which can be found down below. 
+---
 
 ## table comparing differents methods used
 | Classifier      | Accuracy | Precision     | Recall | F1_Score |
