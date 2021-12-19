@@ -110,7 +110,7 @@ The output of this stage is the Result table and the Logs. Both of which can be 
 ![](documents/Rplot08.jpeg)
 We have many other results that have better accurary in our notebook. Specially, we have reached an accuracy of 0.6594 with LinearSVC and Doc2Vec. However, this has not materialized in a better submission result. As such, it is not reported here.
 
-The final submission accurcy score is 0.45166. We are therefor successful in achieving the benchmark of 0.44583
+The final submission accurcy score is 0.45166. We are therefor successful in achieving the benchmark of 0.44583. We made a very last submission with our final notebook and got an even better score (which is 0.46916).
 
 
 ## Logs
