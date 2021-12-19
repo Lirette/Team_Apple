@@ -2,7 +2,7 @@
 Datamining project
 
 ## Team members
-Marine Renaudineau /n
+Marine Renaudineau \n
 Marco Soto Novoa
 Lirette Teiffouet Noumbo Epse Keumedjio
 
