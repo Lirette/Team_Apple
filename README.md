@@ -1,4 +1,4 @@
-# Data Minin and Machine Learning 2021 - Team Apple 
+# Data Mining and Machine Learning 2021 - Team Apple 
 
 ### HEC Lausanne - Prof. Michalis Vlachos, Diana Korka, Ahmad Ajalloeian
 
