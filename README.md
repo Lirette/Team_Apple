@@ -92,6 +92,7 @@ The output of this stage was our submission and various notebooks.
 ### 2.3 - Fine tuning
 This stage is the probably the most fun but also the most tideous. It was here that we started to fine tune our models, trying different parameters and comparing the results. It is a tideous stage as everything needs to be documented. To make sure we are progressing (and not going backwards) our choices need to be made by concrete information rather than by guess work. We looked around in blogs, python library forums and other sources. We tried various methods to increase our accuracy. 
 The output of this stage is the Result table and the Logs. Both of which can be found down below. 
+
 ---
 
 ## table comparing differents methods used
