@@ -6,9 +6,9 @@ Marco Soto Novoa <br />
 Lirette Teiffouet Noumbo Epse Keumedjio
 
 ## project description 
-the goal of the project is to detect Difficulty Level of French Texts. the different level possible are: A1, A2, B1, B2, C1, C2
+the goal of the project is to detect Difficulty Level of French Texts. the different level possible are: A1, A2, B1, B2, C1, C2.
 
-## table comparing differents methods
+## table comparing differents methods used
 | Classifier      | Accuracy | Precision     | Recall | F1_Score |
 | :---        |    :----:   |    ---: |    :----:   |    ---: |
 | Logistic Regression      | 0.4604      | 0.4577   |  0.4595  | 0.4554      | 
