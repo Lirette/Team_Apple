@@ -10,13 +10,13 @@ the goal of the project is to detect Difficulty Level of French Texts. the diffe
 
 ## table comparing differents methods
 | Classifier      | Accuracy | Precision     | Recall | F1_Score |
-| :---        |    :----:   |          ---: |
-| Logistic Regression      | Title       | Here's this   |
-| KNN   | Text        | And more      |
-| Decision Tree      | Title       | Here's this   |
-| Random Forest   | Text        | And more      |
-| RidgeClassifier      | Title       | Here's this   |
-| autres...   | Text        | And more      |
+| :---        |    :----:   |    ---: |    :----:   |    ---: |
+| Logistic Regression      | 0.4604      | 0.4577   |  0.4595  | 0.4554      | 
+| KNN   | 0.3438      | 0.3712      |   0.3422    |  0.3260    |
+| Decision Tree   |    0.3115      | 0.3100      |   0.3107    |  0.3094  |
+| Random Forest   |   0.4021  | 0.4061      |   0.400  |   0.3905  |
+| RidgeClassifier      | 0.3156      | 0.3823   |   0.3137  |  0.2913   |
+| autres...   |        |      |       |       |
 
 ## Logs
 
