@@ -1,12 +1,57 @@
-# DMML2021 Apple(Datamining project)
+# Data Minin and Machine Learning 2021 - Team Apple 
 
-## Team members
-Marine Renaudineau <br />
-Marco Soto Novoa <br />
-Lirette Teiffouet Noumbo Epse Keumedjio
+### HEC Lausanne - Prof. Michalis Vlachos, Diana Korka, Ahmad Ajalloeian
 
-## project description 
-the goal of the project is to detect Difficulty Level of French Texts. the different level possible are: A1, A2, B1, B2, C1, C2.
+![](documents/1.png)
+
+---
+# Project: Detecting the difficulty level of French texts
+
+The goal of the project is to detect Difficulty Level of French Texts. the different level possible are: A1, A2, B1, B2, C1, C2.
+
+## Strucuture of the Github 
+
+## Table of Contents 
+0. Team Presentation
+1. Introduction 
+2. Methodology
+3. Results
+4. Video
+---
+# 0. Team: Diverse yet united
+The team is composed of three people, which all are of different masters' program and different backgrounds. 
+
+### **Marine Renaudineau**
+
+*Github username*: Mrenaudi
+
+*Kaggle username*: Maarine rrr
+
+*E-mail*: marine.renaudineau@unil.ch
+
+Marine is in the [Legal Issues, Crime and Security of Information Technologies](https://www.unil.ch/formations/en/home/menuinst/masters/droit-criminalite-et-securit.html) Master program. Even though she has no prior experience in data mining, she decided to take on the challenge face on. She's also attending another Data Science course. She is wanting to understand data analysis as a whole and be able have a broad view of the subject, from the programming problems to the policy problems this field brings. 
+
+### **Marco Soto Novoa**
+
+*Github username*: msn08
+
+*Kaggle username*: marcoantoniounil
+
+*E-mail*: marco.sotonovoa@unil.ch 
+
+Marco Antonio is in the [Economics](https://www.unil.ch/hec/en/home/menuinst/etudes/master/economie-politique.html) Master programs. He is speciallizing in Quantitative Economics, which is the study mathematical and computational tools in the context of economics and economic policy. While he has some experience with programming, he is eager to learn more and this class was the perfect opportunity for him to learn about machine learning and how it could impact his future study of economics. 
+
+
+### **Lirette Teiffouet Noumbo Epse Keumedjio**
+
+*Github username*: Lirette2
+
+*Kaggle username*: Lirette_Teiffouet
+
+*E-mail*: Lirette.TeiffouetNoumboEpseKeumedjio@unil.ch 
+
+Lirette is in the [Information Systems](https://www.unil.ch/formations/en/home/menuinst/masters/systemes-dinformation.html) Master program . She decided to to take the Data Mining and Machine Learning class because she has strong interests in the field and she wants to work in the data mining field. This class and project is the perfect opportunity for her to learn and master the skills the needs. 
+
 
 ## table comparing differents methods used
 | Classifier      | Accuracy | Precision     | Recall | F1_Score |
