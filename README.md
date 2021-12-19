@@ -62,7 +62,8 @@ The github repo is structured as follows:
 
 
 ```Code```
-The folder that contains various notebooks where we explore different technics and strategies to achieve the best classification. The final notebook is named ```final_notebook_dmml2021_apple```
+The folder that contains various notebooks where we explore different technics and strategies to achieve the best classification. The final notebook is named ```
+final_notebook_dmml2021_apple```
 
 ```Documents```
 This folder most important contribution is the Literature Review which explores briefly what has been done in the past. Then, it includes a file which documents how we have implemented what we have learned from the literature. Finally, this folder also contains some files needed such images.
