@@ -108,6 +108,7 @@ The output of this stage is the Result table and the Logs. Both of which can be 
 | RidgeClassifier      | 0.3156      | 0.3823   |   0.3137  |  0.2913   |
 | LinearSVC      | 0.5333      | 0.530738   |   0.532414  |  0.530353  ||
 
+![](documents/Rplot08.jpeg)
 We have many other results that have better accurary in our notebook. Specially, we have reached an accuracy of 0.6594 with LinearSVC and Doc2Vec. However, this has not materialized in a better submission result. As such, it is not reported here.
 
 The final submission accurcy score is 0.45166. We are therefor successful in achieving the benchmark of 0.44583
