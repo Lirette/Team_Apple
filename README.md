@@ -84,6 +84,9 @@ The output of this step is the literature review and a first notebook where we i
 
 ### 2.2 - Model building
 At this stage, we starting implementing more complex methods to our project. We started by implementing "TF-IDF" and trying in the already existing models. We also decided to try a new model, LinearSCV. This was guided by the recommendation of the people behind the scikit-learn library.
+
+![](documents/ml_map.png)
+
 Using the literature review as a guide, we started to implement different regressors. We decided to follow the "A function does only one thing" principle. As such, we have one function per regressor. This is however very inefficient and makes our code run slowly. However, we decided to keep this structure as way to showcase what was done. 
 After this, we started with the submission in the Kaggle page.
 Judgin by the difference in our notebook accuracy and the kaggle submission, we were suffering by overfitting.
