@@ -1,6 +1,14 @@
 # DMML2021 Apple
 Datamining project
 
+## Team members
+Marine Renaudineau
+Marco Soto Novoa
+Lirette Teiffouet Noumbo Epse Keumedjio
+
+## project description 
+the goal of the project is to detect Difficulty Level of French Texts. the different level possible are: A1, A2, B1, B2, C1, C2
+
 ## Logs
 
 ### Patch 2.4
